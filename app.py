@@ -112,7 +112,7 @@ def update_model_response():
 
 
 # Initiate states and variables
-MAX_QUESTIONS = 3
+MAX_QUESTIONS = 2
 ss = st.session_state
 load_data()
 initiate_states()
