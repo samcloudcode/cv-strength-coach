@@ -47,7 +47,7 @@ def initiate_states():
 
 
 def next_question():
-    if ss.counts <= MAX_QUESTIONS:
+    if ss.counts < MAX_QUESTIONS:
         if len(ss.user_reply) > 2:
             local_prompt = ss.user_reply
             update_messages(local_prompt)
